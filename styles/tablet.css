@@ -44,6 +44,7 @@
         font-size: .938rem;
         font-weight: 200;
         line-height: 18px;
+        color: var(--navy-200);
     }
 
     .jeremy__nome {
@@ -75,11 +76,11 @@
         grid-row: 2;
         background-color: var(--orange);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .work__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -90,7 +91,7 @@
 
     .work__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         padding: 1.406rem 1.344rem;
         position: relative;
         display: flex;
@@ -101,7 +102,7 @@
     .work__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .work__texto {
@@ -124,12 +125,13 @@
     .work__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .work__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .work__tempo {
@@ -142,11 +144,11 @@
         grid-row: 2;
         background-color: var(--blue-300);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .play__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -157,7 +159,7 @@
 
     .play__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         padding: 1.406rem 1.344rem;
         position: relative;
         display: flex;
@@ -168,7 +170,7 @@
     .play__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .play__texto {
@@ -191,12 +193,13 @@
     .play__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .play__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .play__tempo {
@@ -209,11 +212,11 @@
         grid-row: 2;
         background-color: var(--pink-400);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .study__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -224,7 +227,7 @@
 
     .study__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         z-index: 1;
         padding: 1.406rem 1.344rem;
         position: relative;
@@ -236,7 +239,7 @@
     .study__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .study__texto {
@@ -259,12 +262,13 @@
     .study__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .study__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .study__tempo {
@@ -277,11 +281,11 @@
         grid-row: 3;
         background-color: var(--green-400);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .exercise__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -292,7 +296,7 @@
 
     .exercise__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         z-index: 1;
         padding: 1.406rem 1.344rem;
         position: relative;
@@ -304,7 +308,7 @@
     .exercise__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .exercise__texto {
@@ -327,12 +331,13 @@
     .exercise__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .exercise__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .exercise__tempo {
@@ -345,11 +350,11 @@
         grid-row: 3;
         background-color: var(--purple-700);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .social__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -360,7 +365,7 @@
 
     .social__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         z-index: 1;
         padding-left:1.719rem;
         position: relative;
@@ -373,7 +378,7 @@
     .social__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .social__texto {
@@ -396,12 +401,13 @@
     .social__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .social__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .social__tempo {
@@ -414,11 +420,11 @@
         grid-row: 3;
         background-color: var(--yellow-300);
         border: 1px solid var(--navy-950);
-        border-radius: 20px;
+        border-radius: 17px;
     }
 
     .self__inicio {
-        border-radius: 15px;
+        border-radius: 17px;
         height: 2.375rem;
     }
 
@@ -429,7 +435,7 @@
 
     .self__cont {
         background-color: var(--navy-900);
-        border-radius: 12px;
+        border-radius: 15px;
         z-index: 1;
         padding: 1.406rem 1.344rem;
         position: relative;
@@ -441,7 +447,7 @@
     .self__meio {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .self__texto {
@@ -464,12 +470,13 @@
     .self__fim {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1.5rem;
     }
 
     .self__hora {
         font-size: 3.5rem;
         font-weight: 200;
+        line-height: 47px;
     }
 
     .self__tempo {

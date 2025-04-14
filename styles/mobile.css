@@ -53,6 +53,7 @@ body {
         font-size: .938rem;
         font-weight: 200;
         line-height: 18px;
+        color: var(--navy-200);
     }
 
     .jeremy__nome {
