@@ -3,12 +3,12 @@
 /* Estilização Geral */
 body {
     font-family: var(--rubik);
-    font-size: 1REM;
+    font-size: 1rem;
     background-color: var(--navy-950);
     color: var(--white);
 }
 
-/* Estilização Mobile */
+/* Estilização de Dispositivos Mobile */
 @media screen and (max-width: 23.450rem) {
     /* Conteúdo em Geral */
     .conteudo {
