@@ -1,0 +1,9 @@
+@import url(/styles/variaveis.css);
+
+/* Estiliação Tablet */
+
+@media screen and(min-width: 23.5rem) and (max-width: 48rem) {
+    .conteudo {
+        padding: 10.813rem 4.875rem 10.875rem 4.875rem;
+    }
+}
