@@ -58,7 +58,7 @@
         justify-content: space-evenly;
     }
 
-    .jeremy__btn {
+    .jeremy__btn-daily {
         border: none;
         background-color: transparent;
         font-family: var(--rubik);
@@ -66,7 +66,31 @@
         color: var(--purple-500);
     }
 
-    .jeremy__btn:hover {
+    .jeremy__btn-weekly {
+        border: none;
+        background-color: transparent;
+        font-family: var(--rubik);
+        font-size: 1.125rem;
+        color: var(--purple-500);
+    }
+
+    .jeremy__btn-monthly {
+        border: none;
+        background-color: transparent;
+        font-family: var(--rubik);
+        font-size: 1.125rem;
+        color: var(--purple-500);
+    }
+
+    .jeremy__btn-daily:hover {
+        color: var(--white);
+    }
+
+    .jeremy__btn-weekly:hover {
+        color: var(--white);
+    }
+
+    .jeremy__btn-monthly:hover {
         color: var(--white);
     }
 
