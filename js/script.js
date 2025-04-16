@@ -9,36 +9,43 @@ let workTitulo = document.querySelector('.work__texto');
 let workHora = document.querySelector('.work__hora');
 let workTempo = document.querySelector('.work__tempo');
 let workBtn = document.querySelector('.work__btn');
+let workBtnA = document.querySelector('.work__btnA');
 
 //Variáveis Play
 let playTitulo = document.querySelector('.play__texto');
 let playHora = document.querySelector('.play__hora');
 let playTempo = document.querySelector('.play__tempo');
-let platBtn = document.querySelector('.play__btn');
+let playBtn = document.querySelector('.play__btn');
+let playBtnA = document.querySelector('.play__btnA');
+
 
 //Variáveis Study
 let studyTitulo = document.querySelector('.study__texto');
 let studyHora = document.querySelector('.study__hora');
 let studyTempo = document.querySelector('.study__tempo');
 let studyBtn = document.querySelector('.study__btn');
+let studyBtnA = document.querySelector('.study__btnA');
 
 //Variáveis Exercise
 let exerciseTitulo = document.querySelector('.exercise__texto');
 let exerciseHora = document.querySelector('.exercise__hora');
 let exerciseTempo = document.querySelector('.exercise__tempo');
 let exerciseBtn = document.querySelector('.exercise__btn');
+let exerciseBtnA = document.querySelector('.exercise__btnA');
 
 //Variáveis Social
 let socialTitulo = document.querySelector('.social__texto');
 let socialHora = document.querySelector('.social__hora');
 let socialTempo = document.querySelector('.social__tempo');
 let socialBtn = document.querySelector('.social__btn');
+let socialBtnA = document.querySelector('.social__btnA');
 
 //Variáveis Self Care
 let selfCareTitulo = document.querySelector('.self__texto');
 let selfCareHora = document.querySelector('.self__hora');
 let selfCareTempo = document.querySelector('.self__tempo');
 let selfBtn = document.querySelector('.self__btn');
+let selfBtnA = document.querySelector('.self__btnA');
 
 //Interação com o JavaScript e JSON
 // Página Padrão
@@ -68,6 +75,73 @@ fetch("./js/data.json").then((response) => {
         selfCareHora.innerHTML = `${data[5].timeframes.daily.current}hrs`;
         selfCareTempo.innerHTML = `Last Week - ${data[5].timeframes.daily.previous}hrs`;
     })
+})
+
+//Função para mudar o botão de cor
+// 3 Pontos do Card Work
+workBtn.addEventListener('click', () => {
+    workBtn.classList.add('hideout');
+    workBtnA.classList.remove('hideout');
+})
+
+workBtnA.addEventListener('click', () => {
+    workBtnA.classList.add('hideout');
+    workBtn.classList.remove('hideout');
+})
+
+// 3 Pontos do Card Play
+playBtn.addEventListener('click', () => {
+    playBtn.classList.add('hideout');
+    playBtnA.classList.remove('hideout');
+})
+
+playBtnA.addEventListener('click', () => {
+    playBtnA.classList.add('hideout');
+    playBtn.classList.remove('hideout');
+})
+
+// 3 Pontos do Card Study
+studyBtn.addEventListener('click', () => {
+    studyBtn.classList.add('hideout');
+    studyBtnA.classList.remove('hideout');
+})
+
+studyBtnA.addEventListener('click', () => {
+    studyBtnA.classList.add('hideout');
+    studyBtn.classList.remove('hideout');
+})
+
+// 3 Pontos do Card Exercise
+exerciseBtn.addEventListener('click', () => {
+    exerciseBtn.classList.add('hideout');
+    exerciseBtnA.classList.remove('hideout');
+})
+
+exerciseBtnA.addEventListener('click', () => {
+    exerciseBtnA.classList.add('hideout');
+    exerciseBtn.classList.remove('hideout');
+})
+
+// 3 Pontos do Card Social
+socialBtn.addEventListener('click', () => {
+    socialBtn.classList.add('hideout');
+    socialBtnA.classList.remove('hideout');
+})
+
+socialBtnA.addEventListener('click', () => {
+    socialBtnA.classList.add('hideout');
+    socialBtn.classList.remove('hideout');
+})
+
+// 3 Pontos do Card Self Care
+selfBtn.addEventListener('click', () => {
+    selfBtn.classList.add('hideout');
+    selfBtnA.classList.remove('hideout');
+})
+
+selfBtnA.addEventListener('click', () => {
+    selfBtnA.classList.add('hideout');
+    selfBtn.classList.remove('hideout');
 })
 
 //Função Daily

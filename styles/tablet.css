@@ -94,6 +94,11 @@
         color: var(--white);
     }
 
+    /* Display none */
+    .hideout {
+        display: none;
+    }
+
     /* Conteudo Work */
     .conteudo__work {
         grid-column: 1;
@@ -141,7 +146,20 @@
         width: .737rem;
     }
 
+    .work__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .work__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .work__btnA img {
         width: .737rem;
         height: 0.219rem;
     }
@@ -209,7 +227,20 @@
         width: .737rem;
     }
 
+    .play__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .play__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .play__btnA img {
         width: .737rem;
         height: 0.219rem;
     }
@@ -278,7 +309,20 @@
         width: .737rem;
     }
 
+    .study__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .study__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .study__btnA img {
         width: .737rem;
         height: 0.219rem;
     }
@@ -347,7 +391,20 @@
         width: .737rem;
     }
 
+    .exercise__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .exercise__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .exercise__btnA img {
         width: .737rem;
         height: 0.219rem;
     }
@@ -417,7 +474,20 @@
         width: .737rem;
     }
 
+    .social__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .social__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .social__btnA img {
         width: .737rem;
         height: 0.219rem;
     }
@@ -486,7 +556,20 @@
         width: .737rem;
     }
 
+    .self__btnA {
+        border: none;
+        background: transparent;
+        padding: 0;
+        height: .5rem;
+        width: .737rem;
+    }
+
     .self__btn img {
+        width: .737rem;
+        height: 0.219rem;
+    }
+
+    .self__btnA img {
         width: .737rem;
         height: 0.219rem;
     }

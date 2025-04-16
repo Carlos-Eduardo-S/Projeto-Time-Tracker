@@ -96,6 +96,11 @@
         color: var(--white);
     }
 
+    /* Display none */
+    .hideout {
+        display: none;
+    }
+
     /* Conteudo Work */
     .conteudo__work {
         grid-column: 2;
@@ -145,8 +150,9 @@
         background: transparent;
     }
 
-    .hideout {
-        display: none;
+    .work__btnA {
+        border: none;
+        background: transparent;
     }
 
     .work__fim {
@@ -209,6 +215,11 @@
     }
 
     .play__btn {
+        border: none;
+        background: transparent;
+    }
+
+    .play__btnA {
         border: none;
         background: transparent;
     }
@@ -277,6 +288,11 @@
         background: transparent;
     }
 
+    .study__btnA {
+        border: none;
+        background: transparent;
+    }
+
     .study__fim {
         display: flex;
         flex-direction: column;
@@ -337,6 +353,11 @@
     }
 
     .exercise__btn {
+        border: none;
+        background: transparent;
+    }
+
+    .exercise__btnA {
         border: none;
         background: transparent;
     }
@@ -405,6 +426,11 @@
         background: transparent;
     }
 
+    .social__btnA {
+        border: none;
+        background: transparent;
+    }
+
     .social__fim {
         display: flex;
         flex-direction: column;
@@ -465,6 +491,11 @@
     }
 
     .self__btn {
+        border: none;
+        background: transparent;
+    }
+
+    .self__btnA {
         border: none;
         background: transparent;
     }
